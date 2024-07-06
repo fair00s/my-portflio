@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+    body{
+
+    background-image: url('https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30200.jpg');
+    background-size: cover;
+    transition: all;
+}
+
+   .navbar{
+
+    width: 100%;
+    height: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    background-color: rgb(243, 238, 238);
+   }
+
+    .Myname{
+        font-size: 40px;
+        width: auto;
+        height: 70px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+        
+        
+    }
+    .navbaritems{
+        font-size: 25px;
+        width: 600px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+        
+    }
+    
+   .navbar a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    counter-increment: none;
+   }
+   .img1{
+    height: 500px;
+    width: 350px;
+    padding-left:50px;
+    padding-bottom: 50px;
+    margin-left: 100PX;
+
+border-radius: 20%;
+transition: 1s;
+
+   }
+   img:hover
+   {
+    transform: scale(1.2);
+   }
+ .intro{
+    
+    display: flex;
+    text-align: center;
+    padding-top: 200px;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+     font-size: 40px;
+        color: #1b1c1b;
+  
+ }
+ 
+    
+    .H2{
+        margin-top: 150PX;
+        margin-right: 200PX;
+    }
+ #discri{
+    margin-top:100px;
+ }
+ #about{
+    font-size: 45px;
+    text-align: center;
+     
+    
+    width: 80%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+ }
+ #abo{
+    
+    display: flex;
+    text-align: center;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+     font-size: 20px;
+     margin-left: 300px;
+     margin-right: 150px;
+     margin-bottom: 20px;
+        color: #151616;
+ }
+ 
+
+
+ 
+ .img2{ height: 450px;
+    width: 350px; 
+    margin-right: 50px;
+    padding-right: 45px;
+border-radius: 40%;
+transition: 1s;
+ }
+
+ #skill{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(9, 9, 9);
+}
+.skill-container{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-sub{
+    height: 70%;
+    width: 30%;
+    background-color: rgba(189, 194, 196, 0.705);
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-sub i{
+    font-size: 100px;
+}
+.skill-para{
+    font-size: 20px;
+}
+.skill-icon-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#project{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(19, 15, 15);
+}
+
+.project-container{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-sub-one{
+    height: 75%;
+    width: 30%;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/kXUY9hyetVzhZ2scwJP7p3-1200-80.jpg);
+    background-size: cover;
+    border: rgba(6, 79, 58, 0.815);
+    border-radius: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+#contact{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(12, 8, 8);
+    
+}
+.contact-form{
+    width: 50%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-input{
+    width: 90%;
+    height: 15%;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 5px solid rgb(12, 33, 51);
+}
+#message{
+    width: 90%;
+    height: 35%;
+    border-radius: 30px;
+    border: 5px solid rgb(53, 31, 117);
+    outline: none;
+}
+#send{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(27, 85, 110);
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.contact-btn:hover{
+    transform: scale(1.2);
+}
+.icon-container:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+.icon-container i:hover{
+    color: rgb(25, 16, 16);
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+#send:hover{
+    transform: scale(1.2);
+    
+}
+.home-sci{
+    padding-top: 350px;
+}
+
+
+
+      

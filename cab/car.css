@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(60, 137, 205);
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230805/pngtree-a-big-city-with-lots-of-trees-and-many-cars-image_12986796.jpg');
+    background-size: cover;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 80px;
+}
+h6{
+    color: antiquewhite;
+    scroll-behavior: ;
+}
+ #container {
+
+    font-style: normal;
+    font-size: 35px;
+    display: inline-flex;
+    flex-direction: row;
+    position: fixed;
+     }
+     .nav_about{
+        background-color: aqua;
+     }
+     .nav_sevices  {
+        background-color: aquamarine;
+     }
+     .nav_booking
+     {
+        background-color: beige;
+     }
+     .nav_contact{
+        background-color: bisque;
+     }
+
+     h5{
+        font-style: normal;
+        color: aliceblue;
+     }
+     

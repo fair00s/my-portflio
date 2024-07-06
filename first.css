@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    background-image: url(https://img.freepik.com/free-vector/abstract-background-design-dark-green_53876-59276.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  #container {
+    
+    margin: auto;
+    }
+
+   .nav {   
+
+   
+        border: rgb(244, 181, 181);
+        position:fixed
+
+    }
+
+    
